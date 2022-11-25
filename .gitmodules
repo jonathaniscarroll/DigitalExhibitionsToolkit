@@ -1,3 +1,9 @@
 [submodule "/Users/jonathancarroll1/Projects/LongWinter-Hypercity/Assets/DigitalExhibitionsToolkit/Utilities2"]
 	path = /Users/jonathancarroll1/Projects/LongWinter-Hypercity/Assets/DigitalExhibitionsToolkit/Utilities2
 	url = https://github.com/jonathaniscarroll/Utilities2.git
+[submodule "Utilities2"]
+	path = Utilities2
+	url = https://github.com/jonathaniscarroll/Utilities2.git
+[submodule "FirebaseUtilities"]
+	path = FirebaseUtilities
+	url = https://github.com/jonathaniscarroll/FirebaseUtilities.git
