@@ -76,7 +76,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -223,7 +223,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 570514838909093402, guid: 6b1a6b4b33916424da4b40c76c1d56f1, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 570514838909093402, guid: 6b1a6b4b33916424da4b40c76c1d56f1, type: 3}
       propertyPath: m_AnchorMax.x
@@ -372,6 +372,14 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4310807256723673363, guid: 6b1a6b4b33916424da4b40c76c1d56f1, type: 3}
   m_PrefabInstance: {fileID: 6382786849856372598}
   m_PrefabAsset: {fileID: 0}
+--- !u!222 &914450172769714267
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7153728927893679717}
+  m_CullTransparentMesh: 1
 --- !u!114 &285974593013475312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -428,14 +436,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!222 &914450172769714267
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7153728927893679717}
-  m_CullTransparentMesh: 1
 --- !u!114 &7823635255305055701
 MonoBehaviour:
   m_ObjectHideFlags: 0

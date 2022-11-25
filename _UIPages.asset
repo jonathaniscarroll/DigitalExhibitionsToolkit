@@ -10,8 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 846328b123547403e970542539516517, type: 3}
-  m_Name: UIPages
+  m_Name: _UIPages
   m_EditorClassIdentifier: 
   DictionaryList:
-  - name: Menu
+  - name: MainMenu
     dictionary: {fileID: 11400000, guid: 721af89feadb947d1a202e26e808183f, type: 2}
+  - name: Milumbe
+    dictionary: {fileID: 11400000, guid: 181b09c0183de4c8e8bd44e1be700e28, type: 2}
+  - name: Thoreau
+    dictionary: {fileID: 11400000, guid: da9a1f4049d0b406a9282d2291e95165, type: 2}
+  - name: MainMenuButtons
+    dictionary: {fileID: 11400000, guid: 7f2cc43e54787461688f28ddd17eaa1c, type: 2}
+  - name: ThoreauMenu
+    dictionary: {fileID: 11400000, guid: fb4feca85430244e0852b31cbc76ec99, type: 2}

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3be4effbcbb2e4035872913741bc71f8, type: 3}
-  m_Name: UIPage-Menu
+  m_Name: UI-Content-MainMenu
   m_EditorClassIdentifier: 
   NamedStringReferences:
   - Name: Text
@@ -18,10 +18,15 @@ MonoBehaviour:
       UseConstant: 1
       ConstantValue: Here is a bit of text we are testing
       Variable: {fileID: 0}
-  - Name: Button
+  - Name: PageLoadButton
     StringReference:
       UseConstant: 1
-      ConstantValue: and here is a button
+      ConstantValue: Thoreau
+      Variable: {fileID: 0}
+  - Name: PageLoadButton
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Milumbe
       Variable: {fileID: 0}
   DictionaryEvent:
     m_PersistentCalls:
