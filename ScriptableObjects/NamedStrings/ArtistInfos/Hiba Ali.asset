@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be4effbcbb2e4035872913741bc71f8, type: 3}
+  m_Name: Hiba Ali
+  m_EditorClassIdentifier: 
+  NamedStringReferences:
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Hiba Ali
+      Variable: {fileID: 0}
+  - Name: Title
+    StringReference:
+      UseConstant: 1
+      ConstantValue: warming the tones of our heart and spirit
+      Variable: {fileID: 0}
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: 2022
+      Variable: {fileID: 0}
+  - Name: ImageMap
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Hiba
+      Variable: {fileID: 0}
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Project Description
+      Variable: {fileID: 0}
+  - Name: Body
+    StringReference:
+      UseConstant: 1
+      ConstantValue: In warming the tones of our heart and spirit, we are greeted
+        with the roots of three tropical herbs that Hiba has been practicing with.
+        Ashwagandha, turmeric and cloves are used in food and for healing, calming
+        and hygiene across Africa, Asia, the Carribean and Latin America. Due to
+        the capital-colonial global supply chains, we might best know these herbs
+        through their powders or fruit. Here in this AR experience, Hiba, introduces
+        us to their roots. Tuning to the body, warming the tones of our heart and
+        spirit invites us to touch the roots of the three herbs, breathe through
+        a guided-rooted meditation developed for the Hypercity app, and embody the
+        power of deep breath.  Accompanying this project, Hiba is offering free warming
+        tea packets. Pick-up the tea bags at Xpace Cultural Centre (303 Lansdowne
+        Ave, Toronto) from January 13 - March 18 while quantities last.
+      Variable: {fileID: 0}
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Bio
+      Variable: {fileID: 0}
+  - Name: Body
+    StringReference:
+      UseConstant: 1
+      ConstantValue: "hiba ali is a producer of moving images, sounds, garments and
+        words. they reside in many time zones: toronto, chicago and eugene. born
+        in karachi, pakistan, they belong to east african, south asian and arab diasporas.
+        they are a practitioner and (re)learner of swahili, urdu, arabic and spanish
+        languages. they work on two long term art and publication projects: the first
+        being an art-based phd project that examines womyn of colour\u2019s labour,
+        and architecture of surveillance as it exists within the monopoly of amazon
+        (corp.) and the second being a series of works that addresses music, cloth
+        and ritual practices that connect east africa, south asia and the arabian
+        peninsula in the swahili-indian ocean region.  they are an assistant professor
+        at the college of design in the art & technology program at the university
+        of oregon in eugene and they teach on decolonial, feminist, anti-racist frameworks
+        in digital art pedagogies. currently, they are a phd candidate in cultural
+        studies at queens university in kingston, ontario. their work has been presented
+        in chicago, stockholm, vienna, berlin, toronto, new york, istanbul, s\xE3o
+        paulo, detroit, windsor, dubai, austin, vancouver, and portland. they have
+        written for c magazine, the seen, newcity chicago, art chicago, art dubai,
+        the state, medium\u2019s zora, rtv, and topical cream."
+      Variable: {fileID: 0}
+  - Name: SecretButton
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Hiba Ali
+      Variable: {fileID: 0}
+  DictionaryEvent:
+    m_PersistentCalls:
+      m_Calls: []

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be4effbcbb2e4035872913741bc71f8, type: 3}
+  m_Name: Kasra Goodarznezhad
+  m_EditorClassIdentifier: 
+  NamedStringReferences:
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Cassraa
+      Variable: {fileID: 0}
+  - Name: Title
+    StringReference:
+      UseConstant: 1
+      ConstantValue: 'Iranian Rooftops: Grounds for Resistance  in Collaboration
+        with Koohyar Habibi and KOMITE collective'
+      Variable: {fileID: 0}
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: 2022
+      Variable: {fileID: 0}
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Project Description
+      Variable: {fileID: 0}
+  - Name: Body
+    StringReference:
+      UseConstant: 1
+      ConstantValue: "In the post 1979 revolution in Iran, protest, war, natural
+        disasters, and devastation have become a part of people\u2019s daily lives.
+        From the Iran Iraq war that started 1 year after the revolution and lasted
+        for 8 years, to the everyday war that people have with the government. In
+        all the protests that emerge in Iran, rooftops have become a safer haven
+        for the people. When the sun goes down, you can hear people\u2019s chants
+        from the rooftops and out their windows that accompany the people that are
+        on the ground and are fighting together against the oppressive regime. Rooftops
+        have also been a place of privacy. In a country where its citizens are heavily
+        policed and surveilled, rooftops are a place for people to put their satellite
+        dishes, gather privately, and protest together. In contemporary Iranian urban
+        design, rooftops are underlooked and neglected, but people have turned these
+        \u201Cwasted\u201D spaces to grounds for resistance and political movement.
+        With the death of Jina (Mahsa) Amini, rooftops have again become activated
+        by people and in their bloody, brutal fight/revolution against the Islamic
+        Republic regime. This Sunset to Sunrise looping AR activation imagines a
+        surreal ascent of a group of young people in Iran from the streets to the
+        rooftop through the lens of the artist. It makes an attempt to portray the
+        feelings of loss, confusion, nausea, duality, and the continued looping resistance
+        of Iranians\u2019 daily lives. Long live the displaced and the oppressed.
+        A chant 100 years in the making: Azad\xEE, Jiyan, Jin / \u0633\u0644\u0627\u0645"
+      Variable: {fileID: 0}
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Bio
+      Variable: {fileID: 0}
+  - Name: Body
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Kasra Goodarznezhad (cassraa) is a Kurdish Iranian new media
+        artist based in Toronto mainly focused on Installation and Performance. He
+        is a co-founder of Komite and Displaced collectives. His work mainly deals
+        with concepts of displacement, repression, memory and censorship. In his
+        work, Kasra looks to explore the subjective complexities of being an individual
+        living in a society that forces you to behave in ways sanctioned by those
+        who hold power.  This work was made in collaboration with Koohyar Habibi
+        who took on the sound design and recording of the project. Being Kurdish
+        Iranian, in his work Koohyar engages with music as the preservation of cultural
+        heritage and in an experimental approach. In his practice, he prioritizes
+        texture, rhythm, and tone colour, over the traditional approach of composing
+        melody and harmony. He uses electronic music as a medium for exploring ""new""
+        sounds. This gives space to musicians to discover and experiment with the
+        qualities of ""non-musical"" sounds, and ultimately new musical concepts
+        and structures.
+      Variable: {fileID: 0}
+  - Name: SecretButton
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Kasra Goodarznezhad
+      Variable: {fileID: 0}
+  DictionaryEvent:
+    m_PersistentCalls:
+      m_Calls: []

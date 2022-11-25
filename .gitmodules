@@ -7,3 +7,6 @@
 [submodule "FirebaseUtilities"]
 	path = FirebaseUtilities
 	url = https://github.com/jonathaniscarroll/FirebaseUtilities.git
+[submodule "Plugins/unity-firebase-realtime-database"]
+	path = Plugins/unity-firebase-realtime-database
+	url = https://github.com/edricwilliem/unity-firebase-realtime-database.git

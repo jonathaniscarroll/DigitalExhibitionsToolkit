@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be4effbcbb2e4035872913741bc71f8, type: 3}
+  m_Name: "Cheyenne Rain LeGrande \u146D\u14A5\u140A\u1427"
+  m_EditorClassIdentifier: 
+  NamedStringReferences:
+  - Name: Title
+    StringReference:
+      UseConstant: 1
+      ConstantValue: "cahkip\xEAhikan t\xEAhtahokana"
+      Variable: {fileID: 0}
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: 2022
+      Variable: {fileID: 0}
+  - Name: ImageMap
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Cheyenne
+      Variable: {fileID: 0}
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Project Description
+      Variable: {fileID: 0}
+  - Name: Body
+    StringReference:
+      UseConstant: 1
+      ConstantValue: "t\xEAhtahokana koskonkew ahc\xE2hkwa meskocipayiw <br>Her platforms
+        awaken her soul and transform her <br><br>pisewak matowak ka kimowanihki
+        <br>Thunderbird cries when it is raining<br><br>iskowak pehtotewahk ekwa
+        sipweteywak <br>Woman they will come and they will go<br><br>miciminam tipahikan
+        ekwa wapimso <br>She holds time still as she looks in the portal of her essence
+        <br><br>namoya ochi ota wiya <br>She is from another dimension <br><br>poskam
+        otasimin sakitewewin <br>Draped in the love of her people <br><br>papeyahtak
+        tahkosew tante ohcapanpanak kake tahkoskitaw <br>Gently, she steps on the
+        ground her ancestors walked on<br><br>Written by Connie LeGrande <br><br><br>Song
+        credits <br>Vocals by Cheyenne Rain LeGrande \u146D\u14A5\u1418\u1423<br>Composition,
+        instrumentation, mixed and produced by Chandra Melting Tallow <br>Backing
+        vocals Chandra Melting Tallow <br>Written by Stevie Nicks <br>N\xEAhiyaw\xEAwin
+        translation by Kokum and Connie LeGrande  "
+      Variable: {fileID: 0}
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Bio
+      Variable: {fileID: 0}
+  - Name: Body
+    StringReference:
+      UseConstant: 1
+      ConstantValue: "Cheyenne Rain LeGrande \u146D\u14A5\u140A\u1427\u1423 is a
+        Nehiyaw Isko artist, from Bigstone Cree Nation. She currently resides in
+        Amiskwaciy Waskahikan also known as Edmonton, Alberta. Cheyenne graduated
+        from Emily Carr University with her BFA in Visual Arts in 2019. Her work
+        often explores history, knowledge and traditional practices. Through the
+        use of her body and language, she speaks to the past, present and future.
+        Cheyenne\u2019s work is rooted in the strength to feel, express and heal.
+        Bringing her ancestors with her, she moves through installation, photography,
+        video, sound, and performance art."
+      Variable: {fileID: 0}
+  - Name: SecretButton
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Cheyenne Rain LeGrande
+      Variable: {fileID: 0}
+  DictionaryEvent:
+    m_PersistentCalls:
+      m_Calls: []

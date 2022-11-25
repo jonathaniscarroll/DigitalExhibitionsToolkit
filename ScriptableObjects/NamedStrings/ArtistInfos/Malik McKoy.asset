@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be4effbcbb2e4035872913741bc71f8, type: 3}
+  m_Name: Malik McKoy
+  m_EditorClassIdentifier: 
+  NamedStringReferences:
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Malik McKoy
+      Variable: {fileID: 0}
+  - Name: Title
+    StringReference:
+      UseConstant: 1
+      ConstantValue: First and Last
+      Variable: {fileID: 0}
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: 2022
+      Variable: {fileID: 0}
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Project Description
+      Variable: {fileID: 0}
+  - Name: Body
+    StringReference:
+      UseConstant: 1
+      ConstantValue: "First and Last is a cityscape simulation encroaching the user\u2019s
+        view of the real world. Framing the screen is a circular array of high rise
+        buildings receding to a single focal point in a spherical way. The building
+        windows display various, distorted angles of the user\u2019s camera feed.
+        A fingernail with animated sheen and glimmer sits at the top window of each
+        building. Tapping the screen, the user enters a world that is at once otherworldly,
+        futuristic and reflective.   First and Last: An artist Talk with Malik McKoy
+        Thursday November 24th, 7PM, Zoom  Join Malik McKoy for an artist conversation
+        where he will discuss his artistic practice and share his process developing
+        First and Last in Unity for the Hypercity App.  "
+      Variable: {fileID: 0}
+  - Name: Subtitle
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Bio
+      Variable: {fileID: 0}
+  - Name: Body
+    StringReference:
+      UseConstant: 1
+      ConstantValue: "Malik McKoy is a multimedia artist based in Ajax, Ontario.
+        McKoy graduated from OCAD University with a BFA from the Drawing and Painting
+        program. McKoy has also graduated from Seneca\u2019s Game Art and Animation
+        program. These programs have influenced McKoy\u2019s practice to consist
+        of painting and producing computer-generated 3D visuals. Straddling the line
+        between analog and digital, McKoy attempts to create a visual world that
+        lives across both practices. The subject matter of the work is a reflection
+        of the banal qualities of where he is currently based, while translating
+        it with a vibrant and playful lens.  Recently, McKoy completed a solo residency
+        at the Robert McLaughlin Gallery which concluded with a solo exhibition.
+        McKoy has also shown work publicly in various projects and events including
+        Nuit Blanche 2022 with The Drake Hotel."
+      Variable: {fileID: 0}
+  - Name: SecretButton
+    StringReference:
+      UseConstant: 1
+      ConstantValue: Malik McKoy
+      Variable: {fileID: 0}
+  DictionaryEvent:
+    m_PersistentCalls:
+      m_Calls: []
