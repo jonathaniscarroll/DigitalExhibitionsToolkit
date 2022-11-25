@@ -10,10 +10,11 @@ public class SpawnUIElements : MonoBehaviour
 		public UIElement uiElement;
 	}
 	public Transform SpawnParent;
-	public List<NamedUIElements> UIElements;
+	public ListOfNamedUIElements UIElements;
 	
 	public void Spawn(string inputName, string inputContent){
-		UIElement ui = UIElements.Find((x)=>x.name==inputName).uiElement;
+		UIElement ui = UIElements.List.Find((x)=>x.name==inputName).uiElement;
+		Debug.Log(inputName);
 		if(ui!=null){
 			ui = Instantiate(ui,SpawnParent);
 			ui.InputString(inputContent);
