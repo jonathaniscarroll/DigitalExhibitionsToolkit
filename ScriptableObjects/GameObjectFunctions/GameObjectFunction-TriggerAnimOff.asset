@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3cd1d11dd4ae104ead6900a406ff31d, type: 3}
-  m_Name: GameObjectEvent-TriggerAnimOff
+  m_Name: GameObjectFunction-TriggerAnimOff
   m_EditorClassIdentifier: 
   triggerName: Off

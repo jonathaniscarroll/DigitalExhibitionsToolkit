@@ -10,5 +10,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 743010d92178b41aaa3d93cb12861a9e, type: 3}
-  m_Name: LoadScene-Additive
+  m_Name: StringEvent-LoadScene
   m_EditorClassIdentifier: 
