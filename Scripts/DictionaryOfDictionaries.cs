@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class DictionaryOfDictionaries : MonoBehaviour
 {
-	[field:SerializeField]
-	public string CurrentDictionary{get;set;}
+	
+	public StringReference CurrentDictionary;
 	
 	public StringDictionaryList Dictionary;
 	
@@ -21,6 +21,7 @@ public class DictionaryOfDictionaries : MonoBehaviour
 	}
 	
 	public void OutputStringStringEvents(string input){
+		Debug.Log(input,gameObject);
 		NamedStringReferenceList nsrl = Dictionary.DictionaryList.Find(x=>x.name==input).dictionary;
 		Debug.Log(input);
 		if(nsrl!=null&&nsrl.NamedStringReferences!=null){
@@ -33,8 +34,11 @@ public class DictionaryOfDictionaries : MonoBehaviour
 	}
 	
 	public void AddToCurrent(string key,string value){
-		NamedStringReferenceList nsrl = Dictionary.DictionaryList.Find(x=>x.name==CurrentDictionary).dictionary;
-		if(nsrl!=null&&nsrl.NamedStringReferences!=null){
+		NamedStringReferenceList nsrl = Dictionary.DictionaryList.Find(x=>x.name==CurrentDictionary.Value).dictionary;
+		if(nsrl!=null){
+			if(nsrl.NamedStringReferences==null){
+				nsrl.NamedStringReferences = new List<NamedStringReference>();
+			}
 			NamedStringReference entry = new NamedStringReference(key,value);
 			nsrl.NamedStringReferences.Add(entry);
 			
