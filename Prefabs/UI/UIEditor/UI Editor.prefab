@@ -1580,6 +1580,7 @@ GameObject:
   - component: {fileID: 3397493125727595455}
   - component: {fileID: 1653772213402767080}
   - component: {fileID: 2702232849344014548}
+  - component: {fileID: 7483198939118219816}
   m_Layer: 5
   m_Name: PageContainer
   m_TagString: Untagged
@@ -1660,6 +1661,20 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &7483198939118219816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4521049470058807971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 278ba713f7bbd4832ac2592e2b37b8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnParent: {fileID: 3397493125727595455}
+  UIElements: {fileID: 11400000, guid: 2cb3fc249e0d149bc86838438f294568, type: 2}
 --- !u!1 &5232098118373924011
 GameObject:
   m_ObjectHideFlags: 0
@@ -2160,7 +2175,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Create Page
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3070,7 +3085,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4152422811427901124, guid: f98c137ed466346f7a31bc4f76182cfb, type: 3}
       propertyPath: StringStringEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4152422811427901124, guid: f98c137ed466346f7a31bc4f76182cfb, type: 3}
       propertyPath: StringStringEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -3087,7 +3102,7 @@ PrefabInstance:
     - target: {fileID: 4152422811427901124, guid: f98c137ed466346f7a31bc4f76182cfb, type: 3}
       propertyPath: StringStringEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1653772213402767080}
+      objectReference: {fileID: 7483198939118219816}
     - target: {fileID: 4152422811427901124, guid: f98c137ed466346f7a31bc4f76182cfb, type: 3}
       propertyPath: StringStringEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -3102,7 +3117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4152422811427901124, guid: f98c137ed466346f7a31bc4f76182cfb, type: 3}
       propertyPath: StringStringEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: AddToCurrent
+      value: Spawn
       objectReference: {fileID: 0}
     - target: {fileID: 4152422811427901124, guid: f98c137ed466346f7a31bc4f76182cfb, type: 3}
       propertyPath: StringStringEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -3110,7 +3125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4152422811427901124, guid: f98c137ed466346f7a31bc4f76182cfb, type: 3}
       propertyPath: StringStringEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: DictionaryOfDictionaries, Assembly-CSharp
+      value: SpawnUIElements, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4152422811427901124, guid: f98c137ed466346f7a31bc4f76182cfb, type: 3}
       propertyPath: StringStringEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
