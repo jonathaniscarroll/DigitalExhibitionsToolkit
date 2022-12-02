@@ -14,12 +14,13 @@ public class SpawnUIElements : MonoBehaviour
 	public ListOfNamedUIElements UIElements;
 	public GameObjectEvent SpawnedObject;
 	
-	public void Spawn(string inputName, string inputContent){
+	public void Spawn(string inputName, StringReference inputStringReference){
 		UIElement ui = UIElements.List.Find((x)=>x.name==inputName).uiElement;
 		Debug.Log(inputName);
 		if(ui!=null){
 			ui = Instantiate(ui,SpawnParent);
-			ui.InputString(inputContent);
+			ui.StringReference = inputStringReference;
+			ui.InputString(inputStringReference.Value);
 			SpawnedObject.Invoke(ui.gameObject);
 		}
 	}

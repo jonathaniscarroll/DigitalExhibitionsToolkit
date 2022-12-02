@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class UIElement : MonoBehaviour
 {
+	public StringReference StringReference;
 	public StringEvent StringEvent;
 	public void InputString(string input){
-		Debug.Log(input);
+		StringReference.Value = input;
 		StringEvent.Invoke(input);
 	}
 }

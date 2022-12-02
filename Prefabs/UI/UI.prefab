@@ -1229,6 +1229,9 @@ MonoBehaviour:
       m_Calls: []
   StringStringEvent:
     m_PersistentCalls:
+      m_Calls: []
+  StringStringReferenceEvent:
+    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8033669477908010360}
         m_TargetAssemblyTypeName: SpawnUIElements, Assembly-CSharp

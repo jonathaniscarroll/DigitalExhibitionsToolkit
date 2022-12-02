@@ -1037,7 +1037,7 @@ GameObject:
   - component: {fileID: 8374561209531149121}
   - component: {fileID: 2452827162984954298}
   m_Layer: 5
-  m_Name: BlockEditor
+  m_Name: UIPageEditor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
