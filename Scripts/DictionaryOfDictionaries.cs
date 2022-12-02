@@ -41,7 +41,6 @@ public class DictionaryOfDictionaries : MonoBehaviour
 			}
 			NamedStringReference entry = new NamedStringReference(key,value);
 			nsrl.NamedStringReferences.Add(entry);
-			
 		}
 	}
 }

@@ -9,8 +9,10 @@ public class SpawnUIElements : MonoBehaviour
 		public string name;
 		public UIElement uiElement;
 	}
-	public Transform SpawnParent;
+	[field:SerializeField]
+	public Transform SpawnParent{get;set;}
 	public ListOfNamedUIElements UIElements;
+	public GameObjectEvent SpawnedObject;
 	
 	public void Spawn(string inputName, string inputContent){
 		UIElement ui = UIElements.List.Find((x)=>x.name==inputName).uiElement;
@@ -18,6 +20,7 @@ public class SpawnUIElements : MonoBehaviour
 		if(ui!=null){
 			ui = Instantiate(ui,SpawnParent);
 			ui.InputString(inputContent);
+			SpawnedObject.Invoke(ui.gameObject);
 		}
 	}
 	

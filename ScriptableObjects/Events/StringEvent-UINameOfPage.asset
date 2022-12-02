@@ -9,10 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3be4effbcbb2e4035872913741bc71f8, type: 3}
-  m_Name: UI-Pages-sawmill
+  m_Script: {fileID: 11500000, guid: 743010d92178b41aaa3d93cb12861a9e, type: 3}
+  m_Name: StringEvent-UINameOfPage
   m_EditorClassIdentifier: 
-  NamedStringReferences: []
-  DictionaryEvent:
-    m_PersistentCalls:
-      m_Calls: []

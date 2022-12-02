@@ -10,5 +10,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 051a1af2bd68449f88d89df24c477768, type: 3}
-  m_Name: Event-TopButton
+  m_Name: Event-UIActivateEditor
   m_EditorClassIdentifier: 
