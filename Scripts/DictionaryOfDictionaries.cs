@@ -46,7 +46,13 @@ public class DictionaryOfDictionaries : MonoBehaviour
 			}
 			StringReference stringReference = new StringReference();
 			stringReference.UseConstant = false;
-			string path = "Assets/DigitalExhibitionsToolkit/ScriptableObjects/_UI/Elements/UI-Elements-"+CurrentDictionary.Value +"-"+ value+".asset";
+			int count = 0;
+			string fileName = "UI-Elements-"+CurrentDictionary.Value +"-"+ key +"-"+ value;
+			while(nsrl.NamedStringReferences.Find(x=>x.StringRef.Variable.name==fileName)!=null){
+				fileName = fileName +"-"+ count;
+				count++;
+			}
+			string path = "Assets/DigitalExhibitionsToolkit/ScriptableObjects/_UI/Elements/"+fileName+".asset";
 			StringVar stringVar = StringVariable(value,path);
 			stringReference.Variable = stringVar;
 			NamedStringReference entry = new NamedStringReference(key,stringReference);
