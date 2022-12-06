@@ -65,11 +65,14 @@ public class DictionaryOfDictionaries : MonoBehaviour
 	}
 	
 	public StringVar StringVariable(string _val,string path){
+		
 		StringVar output = ScriptableObject.CreateInstance<StringVar>();
+		#if UNITY_EDITOR
 		output.Value = _val;
 		AssetDatabase.CreateAsset(output,path);
 		//EditorUtility.FocusProjectWindow();
 		//Selection.activeObject = this;
+		#endif
 		return output;
 	}
 

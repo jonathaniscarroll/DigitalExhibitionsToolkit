@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40f984fdfd84645dfa710969c34ea4bd, type: 3}
-  m_Name: "UI-Elements-Detail-Menu-SceneLoadButton-360\u2022 Room"
+  m_Name: UI-Elements-Menu-SceneLoadButton-Milumbe
   m_EditorClassIdentifier: 
-  _value: "360\u2022 Room"
+  _value: Milumbe
   InitialValue: 
   UseInitialValue: 0
   onChange:

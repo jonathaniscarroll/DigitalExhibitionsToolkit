@@ -12,9 +12,11 @@ public class StringDictionaryList : ScriptableObject
 		public NamedDictionary(string _name,string _dictionaryName){
 			NamedStringReferenceList newDictionary = ScriptableObject.CreateInstance<NamedStringReferenceList>();
 			string path = "Assets/DigitalExhibitionsToolkit/ScriptableObjects/_UI/Pages/UI-Pages-"+_name+".asset";
+			#if UNITY_EDITOR
 			AssetDatabase.CreateAsset(newDictionary,path);
 			EditorUtility.FocusProjectWindow();
 			Selection.activeObject = newDictionary;
+			#endif
 			name = _name;
 			dictionary = newDictionary;
 		}

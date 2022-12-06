@@ -8,12 +8,13 @@ public class OutputNamedStringEvents : MonoBehaviour
 	[System.Serializable]
 	public class NamedEvent{
 		public string name;
-		public UnityEvent unityEvent;
+		public StringEvent stringEvent;
 	}
 	public List<NamedEvent> NamedEvents;
 	
-	public void FindNamedEvent(string input){
+	public void FindNamedEvent(string input,string argument){
 		NamedEvent output= NamedEvents.Find(x=>x.name==input);
-		output.unityEvent.Invoke();
+		if(output!=null)
+		output.stringEvent.Invoke(argument);
 	}
 }

@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40f984fdfd84645dfa710969c34ea4bd, type: 3}
-  m_Name: UI-Elements-What is DETAIL-Subtitle-Digital Exhibitions Toolkit and Art
-    Installation Launcher
+  m_Name: UI-Elements-Menu-Title-DETAIL
   m_EditorClassIdentifier: 
-  _value: Digital Exhibitions Toolkit and Art Installation Launcher
+  _value: DETAIL
   InitialValue: 
   UseInitialValue: 0
   onChange:
