@@ -16,6 +16,7 @@ public class DictionaryOfDictionaries : MonoBehaviour
 	public StringStringEvent StringStringEvent;
 	public StringStringReferenceEvent StringStringReferenceEvent;
 	public StringEvent OutputOnFail;
+	public UnityEvent OnOutputEnd;
 	
 	public void Output(string input){
 		NamedStringReferenceList nsr = Dictionary.DictionaryList.Find(x=>x.name==input).dictionary;
@@ -33,9 +34,11 @@ public class DictionaryOfDictionaries : MonoBehaviour
 				StringStringEvent.Invoke(nsr.Name,nsr.StringRef.Value);
 				StringStringReferenceEvent.Invoke(nsr.Name,nsr.StringRef);
 			}
+			OnOutputEnd.Invoke();
 		} else {
 			OutputOnFail.Invoke(input);
 		}
+		
 	}
 	
 	public void AddToCurrent(string key,string value){

@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 1966280748198054735, guid: 727e03cef119747b2a06b6582de1ed5e, type: 3}
       propertyPath: OutputEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 11400000, guid: 8281668db39844a708ee8caeb819689c, type: 2}
+      objectReference: {fileID: 11400000, guid: cc3d2dda477e749fbb70897e971fcef3, type: 2}
     - target: {fileID: 1966280748198054735, guid: 727e03cef119747b2a06b6582de1ed5e, type: 3}
       propertyPath: OutputEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Raise

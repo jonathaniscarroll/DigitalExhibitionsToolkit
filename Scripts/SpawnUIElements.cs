@@ -11,6 +11,8 @@ public class SpawnUIElements : MonoBehaviour
 	}
 	[field:SerializeField]
 	public Transform SpawnParent{get;set;}
+	[field:SerializeField]
+	public string UIParentName{get;set;}
 	public ListOfNamedUIElements UIElements;
 	public GameObjectEvent SpawnedObject;
 	
@@ -19,6 +21,9 @@ public class SpawnUIElements : MonoBehaviour
 		Debug.Log(inputName);
 		if(ui!=null){
 			ui = Instantiate(ui,SpawnParent);
+			if(inputName==UIParentName){
+				SpawnParent = ui.transform;
+			}
 			ui.StringReference = inputStringReference;
 			ui.InputString(inputStringReference.Value);
 			SpawnedObject.Invoke(ui.gameObject);

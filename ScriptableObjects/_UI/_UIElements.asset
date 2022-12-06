@@ -13,22 +13,22 @@ MonoBehaviour:
   m_Name: _UIElements
   m_EditorClassIdentifier: 
   List:
-  - name: Base
-    uiElement: {fileID: 808012123531137666, guid: 6b1a6b4b33916424da4b40c76c1d56f1, type: 3}
-  - name: Spawner
-    uiElement: {fileID: 3305489909897043102, guid: 5dcdc75cf17614f33861516f9f8f7d90, type: 3}
   - name: Text
     uiElement: {fileID: 6373436347012911767, guid: e333105e3ab864c93a23fbd70c0b3695, type: 3}
   - name: Button
     uiElement: {fileID: 6026542444092419572, guid: 727e03cef119747b2a06b6582de1ed5e, type: 3}
   - name: PageLoadButton
     uiElement: {fileID: 4463162249655610920, guid: ddd9916d3188b462e8fcc588fae0a159, type: 3}
-  - name: Menu
-    uiElement: {fileID: 3305489909897043102, guid: 5dcdc75cf17614f33861516f9f8f7d90, type: 3}
   - name: SceneLoadButton
     uiElement: {fileID: 1243848957797091720, guid: 8662f4d44e45a4fa1839119be85db28d, type: 3}
   - name: DefaultPage
     uiElement: {fileID: 1992628011227613107, guid: 59cdea1a7d06846acbac1a866deffac9, type: 3}
+  - name: Title
+    uiElement: {fileID: 8242954775662099045, guid: 02bd95528b5744b2f854c9b5dd460967, type: 3}
+  - name: Body
+    uiElement: {fileID: 8730711764269237460, guid: 9ef261a0e34944168ae529396d1df583, type: 3}
+  - name: Subtitle
+    uiElement: {fileID: 8327998374126210717, guid: 097f5be4c8f6442be9edc0694375d34b, type: 3}
   OutputNamesEvent:
     m_PersistentCalls:
       m_Calls:

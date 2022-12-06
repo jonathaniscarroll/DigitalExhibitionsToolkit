@@ -11,7 +11,7 @@ public class StringDictionaryList : ScriptableObject
 		public NamedStringReferenceList dictionary;
 		public NamedDictionary(string _name,string _dictionaryName){
 			NamedStringReferenceList newDictionary = ScriptableObject.CreateInstance<NamedStringReferenceList>();
-			string path = "Assets/DigitalExhibitionsToolkit/ScriptableObjects/_UI/UI-Pages-"+_name+".asset";
+			string path = "Assets/DigitalExhibitionsToolkit/ScriptableObjects/_UI/Pages/UI-Pages-"+_name+".asset";
 			AssetDatabase.CreateAsset(newDictionary,path);
 			EditorUtility.FocusProjectWindow();
 			Selection.activeObject = newDictionary;

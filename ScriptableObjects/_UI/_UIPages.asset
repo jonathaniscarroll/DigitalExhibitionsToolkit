@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 846328b123547403e970542539516517, type: 3}
   m_Name: _UIPages
   m_EditorClassIdentifier: 
-  DictionaryList: []
+  DictionaryList:
+  - name: Menu
+    dictionary: {fileID: 11400000, guid: 55ed41541d4bf4625a6d3b4981683216, type: 2}
   OutputNamesEvent:
     m_PersistentCalls:
       m_Calls:
