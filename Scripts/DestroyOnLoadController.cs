@@ -11,4 +11,10 @@ public class DestroyOnLoadController : MonoBehaviour
 		}
 	}
 	
+	public void DoDestroy(){
+		foreach(GameObject go in GameObjects){
+			Destroy(go);
+		}
+	}
+	
 }
