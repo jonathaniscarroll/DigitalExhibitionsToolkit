@@ -25,7 +25,7 @@ public class RectFollowTransform : MonoBehaviour
 		}
 		Vector3 pos = TargetCamera.WorldToScreenPoint (targPos);
 		//pos.y = Screen.height-pos.y;
-		//RectTransform.anchoredPosition = new Vector2(pos.x,pos.y);
+		RectTransform.anchoredPosition = new Vector2(pos.x,pos.y);
 		OutputVector3.Invoke(pos);
 		
 	}

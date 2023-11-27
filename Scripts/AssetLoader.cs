@@ -8,6 +8,7 @@ using UnityEngine.ResourceManagement.ResourceProviders;
 public class AssetLoader : MonoBehaviour
 {
 	public AssetReference AssetReferencePrefab;
+	public Transform Parent;
 	public StringEvent LoadingProgress;
 	public GameObjectEvent OutputLoadedGameObject;
 	public StringEvent CheckingSize;
@@ -20,16 +21,16 @@ public class AssetLoader : MonoBehaviour
 	}
 	
 	IEnumerator Loading(){
-		var downloadSize = Addressables.GetDownloadSizeAsync(AssetReferencePrefab.RuntimeKey);
-		while(!downloadSize.IsDone){
-			CheckingSize.Invoke(((int)downloadSize.GetDownloadStatus().Percent*100).ToString());
-			yield return new WaitForEndOfFrame();
-		}
-		float download = Mathf.Round(downloadSize.Result/1000000);
-		while(!ConfirmDownload && downloadSize.Result>0){
-			OutputSize.Invoke(download.ToString());
-			yield return new WaitForEndOfFrame();
-		}
+		//var downloadSize = Addressables.GetDownloadSizeAsync(AssetReferencePrefab.RuntimeKey);
+		//while(!downloadSize.IsDone){
+		//	CheckingSize.Invoke(((int)downloadSize.GetDownloadStatus().Percent*100).ToString());
+		//	yield return new WaitForEndOfFrame();
+		//}
+		//float download = Mathf.Round(downloadSize.Result/1000000);
+		//while(!ConfirmDownload && downloadSize.Result>0){
+		//	OutputSize.Invoke(download.ToString());
+		//	yield return new WaitForEndOfFrame();
+		//}
 		var loadedAsset = AssetReferencePrefab.LoadAssetAsync<GameObject>();
 		loadedAsset.Completed += DownloadComplete;
 		handle = loadedAsset;
@@ -45,6 +46,7 @@ public class AssetLoader : MonoBehaviour
 			AssetReferencePrefab.InstantiateAsync().Completed+=(loadedGameObject)=>
 			{
 				GameObject output = loadedGameObject.Result;
+				output.transform.parent = Parent;
 				OutputLoadedGameObject.Invoke(output);
 			};
 			
