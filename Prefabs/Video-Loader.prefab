@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8207561639638359692}
   - component: {fileID: 2164933545893905377}
   m_Layer: 0
-  m_Name: VideoLoader
+  m_Name: Video-Loader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

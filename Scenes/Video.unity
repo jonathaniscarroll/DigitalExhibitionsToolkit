@@ -479,6 +479,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cb2d29c5007d40f1aa03545deefa601, type: 3}
+--- !u!1001 &5871990153284088305
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 454747122352916817, guid: e6f840427263740c08065df16ce62953, type: 3}
+      propertyPath: m_Name
+      value: Video-360Skybox
+      objectReference: {fileID: 0}
+    - target: {fileID: 631210930923332463, guid: e6f840427263740c08065df16ce62953, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 631210930923332463, guid: e6f840427263740c08065df16ce62953, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 631210930923332463, guid: e6f840427263740c08065df16ce62953, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 631210930923332463, guid: e6f840427263740c08065df16ce62953, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 631210930923332463, guid: e6f840427263740c08065df16ce62953, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 631210930923332463, guid: e6f840427263740c08065df16ce62953, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 631210930923332463, guid: e6f840427263740c08065df16ce62953, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 631210930923332463, guid: e6f840427263740c08065df16ce62953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 631210930923332463, guid: e6f840427263740c08065df16ce62953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 631210930923332463, guid: e6f840427263740c08065df16ce62953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6f840427263740c08065df16ce62953, type: 3}
 --- !u!1001 &6999356825058077827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -495,6 +552,10 @@ PrefabInstance:
       propertyPath: currentTimeText.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 8115099713369190586}
+    - target: {fileID: 6121380465651361144, guid: 2be12fb736b2e4a2ea83fc61787dbe5f, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7234576066455796855, guid: 2be12fb736b2e4a2ea83fc61787dbe5f, type: 3}
       propertyPath: m_Name
       value: 3DVideo-Flat
@@ -565,3 +626,4 @@ SceneRoots:
   - {fileID: 1025163378}
   - {fileID: 1089975203}
   - {fileID: 1849115540}
+  - {fileID: 5871990153284088305}
